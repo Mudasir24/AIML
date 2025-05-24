@@ -1,4 +1,4 @@
-# Sarcastic Bot
+# Analogizer Bot
 
 A fun web application that generates sarcastic roasts based on user input. The bot uses AI to create personalized, humorous roasts and pairs them with reaction GIFs and voice responses.
 
