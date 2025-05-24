@@ -1,13 +1,13 @@
 # Analogizer Bot
 
-A fun web application that generates sarcastic roasts based on user input. The bot uses AI to create personalized, humorous roasts and pairs them with reaction GIFs and voice responses.
+A fun web application that generates funny analogies based on user input. The bot uses AI to create personalized, humorous comparisons and pairs them with reaction GIFs and voice responses.
 
 ## Features
 
-- **Text-based Roasts**: Enter text about yourself and get a personalized roast
+- **Text-based Roasts**: Enter text about yourself and get a personalized analogy
 - **Voice Input**: Record your voice and have it transcribed using the Whisper model
-- **Reaction GIFs**: Each roast comes with a matching reaction GIF
-- **Voice Responses**: Roasts are read aloud using ElevenLabs text-to-speech
+- **Reaction GIFs**: Each analogy comes with a matching reaction GIF
+- **Voice Responses**: Analogies are read aloud using ElevenLabs text-to-speech
 - **Dark/Light Mode**: Toggle between dark and light themes
 - **Model Selection**: Choose between different AI models for roasting
 
@@ -40,7 +40,7 @@ The application uses the Whisper model from Hugging Face for speech recognition.
 2. Speak your message
 3. Click the button again to stop recording
 4. The transcribed text will appear in the input field
-5. Click "Roast" to generate a response
+5. Click "Analogize this!" to generate a response
 
 ### Troubleshooting Speech Recognition
 
