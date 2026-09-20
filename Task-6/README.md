@@ -28,7 +28,7 @@ A fun web application that generates funny analogies based on user input. The bo
    ```
 4. Run the application:
    ```
-   python roast_bot.py
+   python Analogizer.py
    ```
 5. Open your browser and navigate to `http://localhost:5000`
 

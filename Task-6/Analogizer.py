@@ -108,4 +108,9 @@ def index():
     return render_template('index.html')
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    # DEBUG defaults to off — Flask's debug mode exposes an interactive
+    # in-browser debugger that allows arbitrary code execution if the app
+    # ever crashes in front of a user. Set FLASK_DEBUG=1 in your .env only
+    # when developing locally.
+    debug_mode = os.getenv("FLASK_DEBUG", "0") == "1"
+    app.run(debug=debug_mode)
